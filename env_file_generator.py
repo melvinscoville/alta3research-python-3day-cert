@@ -39,9 +39,10 @@ def main():
                 print("  private_gateway: " + row[9], file=yamlfile)
                 print(f"Completed {filename} env yaml file generation.")
 
-
-# display this to the screen when all of the looping is over
-print("All env.yaml files created!")
-
 if __name__ == "__main__":
     main()
+
+# display this to the screen when all of the looping is over
+print("\n### All env.yaml files created! ###\n")
+
+# EOF
