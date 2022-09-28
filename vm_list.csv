@@ -1,0 +1,5 @@
+Automation_VM1,Automation_VM1,SC8-16-80,RHEL,server_group_1,volume_id_1,port_1,192.168.100.5,255.255.255.0,192.168.100.1
+Automation_VM2,Automation_VM2,SC8-16-80,RHEL,server_group_1,volume_id_2,port_2,192.168.100.6,255.255.255.0,192.168.100.1
+Utilty_VM1,Utility_VM1,SC4-8-80,Ubuntu,server_group_2,volume_id_3,port_3,192.168.100.7,255.255.255.0,192.168.100.1
+Utilty_VM2,Utility_VM2,SC4-8-80,Ubuntu,server_group_2,volume_id_4,port_4,192.168.100.8,255.255.255.0,192.168.100.1
+Scripting_VM1,Scripting_VM1,SC16-16-360,Rocky,server_group_3,volume_id_5,port_5,192.168.100.9,255.255.255.0,192.168.100.1
