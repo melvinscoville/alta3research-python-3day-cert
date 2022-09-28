@@ -14,7 +14,7 @@ def main():
         i = 0
         # loop across our open file line by line
         for row in csv.reader(csvfile):
-            i = i + 1 # increase i by 1 (to create unique admin.rc file names)
+            i = i + 1 # increase i by 1 (to create unique yaml file names)
             filename = f"envFile{i}.yaml" # this f string says "fill in the value of i"
             
             # open a file via "with". This file will autoclose when the indentations stop
