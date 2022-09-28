@@ -45,4 +45,4 @@ if __name__ == "__main__":
 # display this to the screen when all of the looping is over
 print("\n### All env.yaml files created! ###\n")
 
-# EOF
+# END
