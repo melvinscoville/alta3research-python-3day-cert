@@ -2,6 +2,9 @@
 
 This repo is for the Alta3 Research Python 3-Day Certification.
 
+The env_file_generator.py script generates OpenStack yaml output files for VM instantiation
+based on the vm_list.csv input file.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine
@@ -10,7 +13,9 @@ on a live system.
 
 ### Prerequisites
 
-None.
+(1) import csv
+(2) vm_list.csv file listing VM's in the following format:
+name,hostname,flavor,image_id,server_group,volume_id,private_port,private_ip,private_netmask,private_gateway
 
 ## Built With
 

@@ -1,0 +1,18 @@
+parameter_defaults:
+  # Environment variables for Heat template of Automation
+
+  # VM related parameters
+  name: Scripting_VM1
+  hostname: Scripting_VM1
+  flavor: SC16-16-360
+  image_id: Rocky
+  server_group: server_group_3
+  volume_id: volume_id_5
+
+  # Network Port
+  private_port: port_5
+
+  # Network interface
+  private_ip: 192.168.100.9
+  private_netmask: 255.255.255.0
+  private_gateway: 192.168.100.1

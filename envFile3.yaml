@@ -1,0 +1,18 @@
+parameter_defaults:
+  # Environment variables for Heat template of Automation
+
+  # VM related parameters
+  name: Utilty_VM1
+  hostname: Utility_VM1
+  flavor: SC4-8-80
+  image_id: Ubuntu
+  server_group: server_group_2
+  volume_id: volume_id_3
+
+  # Network Port
+  private_port: port_3
+
+  # Network interface
+  private_ip: 192.168.100.7
+  private_netmask: 255.255.255.0
+  private_gateway: 192.168.100.1
